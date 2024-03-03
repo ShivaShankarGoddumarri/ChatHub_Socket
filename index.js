@@ -1,6 +1,6 @@
 const io = require("socket.io")(8900, {
     cors: {
-        origin: ["http://localhost:3000", "https://chathub-frontend-8wm7.onrender.com"],
+        origin: ["http://localhost:3000", "https://chathub-frontend-8wm7.onrender.com","https://chathub-eta.vercel.app"],
     },
 });
 
